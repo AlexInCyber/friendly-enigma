@@ -34,7 +34,7 @@ class Pcap:
         self.pcap_file.close()
 
 p = Pcap("a.pcap")
-s = open("misc_not-clear_togive_not-clear.txt", "r").read().split("\n")
+s = open("text.txt", "r").read().split("\n")
 
 for i in s:
     if "|" not in i:
